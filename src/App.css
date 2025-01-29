@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 6px; /* Thin scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light grey track */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff44003f; /* Orange handle */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e68900; /* Darker orange on hover */
+}
