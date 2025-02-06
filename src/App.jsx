@@ -4,6 +4,10 @@ import HomePage from "./Components/HomePage/HomePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import ContactPage from "./Components/ContactPage/ContactPage";
+import Faqs from "./Components/FAQS/Faqs";
+import ProjectImplementaion from "./Components/Project Implementation/ProjectImplementaion";
+import KnowurSpoc from "./KnowYourSPOC/KnowurSpoc";
+import ProblemStatement from "./Components/ProblemStatement/ProblemStatement";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -15,11 +19,22 @@ const App = () => {
           path: "/",
           element: <HomePage />,
         },
-
-        // {
-        //   path: "/about",
-        //   element: <About />,
-        // },
+        {
+          path: "/ProblemStatement",
+          element: <ProblemStatement />,
+        },
+        {
+          path: "/KnowYourSPOC",
+          element: <KnowurSpoc />,
+        },
+        {
+          path: "/ProjectImplementaion",
+          element: <ProjectImplementaion />,
+        },
+        {
+          path: "/Faqs",
+          element: <Faqs />,
+        },
 
         {
           path: "/contact",

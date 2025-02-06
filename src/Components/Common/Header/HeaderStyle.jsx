@@ -9,7 +9,7 @@ display:flex;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #ffffff;
-  height: 80px;
+  height: 70px;
 `;
 
 export const Navbar=styled.div`
